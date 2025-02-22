@@ -81,7 +81,7 @@ Vagrant.configure("2") do |config|
          rm /etc/localtime && ln -s /usr/share/zoneinfo/Europe/Moscow /etc/localtime
    ###   apt-get update
    ###   apt-get upgrade -y
-   # Установим Ansible
-   apt-get update && apt install ansible -y
+   # Установим Ansible, текстовый мейл клиент mutt
+   apt update && apt install ansible mutt -y
    SHELL
 end
