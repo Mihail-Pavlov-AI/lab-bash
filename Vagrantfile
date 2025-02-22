@@ -82,8 +82,8 @@ Vagrant.configure("2") do |config|
    ###   apt-get update
    ###   apt-get upgrade -y
 
-   # Установим обновеления и Ansible
-   apt update && apt upgrade -y && apt install ansible -y
+   # Установим pip
+   apt update && apt install pip
    SHELL
 
    ##config.vm.provision "ansible" do |ansible|
