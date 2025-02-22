@@ -85,4 +85,9 @@ Vagrant.configure("2") do |config|
    # Установим Ansible, текстовый мейл клиент mutt
    apt update && apt install ansible mutt -y
    SHELL
+
+   config.vm.provision "ansible" do |ansible|
+      ansible.playbook = "playbook.yml"
+   end
+
 end
