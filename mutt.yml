@@ -18,6 +18,7 @@
       template:
         src: conf/.muttrc
         dest: ~/.muttrc
+        force: no
         mode: '0600'
       tags:
         - mutt-configuration
