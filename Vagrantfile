@@ -82,12 +82,4 @@ Vagrant.configure("2") do |config|
    ###   apt-get update
    ###   apt-get upgrade -y
 
-   # Установим pip
-   apt update && apt install pip -y && pip install ansible
-   SHELL
-
-   ##config.vm.provision "ansible" do |ansible|
-   ##   ansible.playbook = "playbook.yml"
-   ##end
-
 end
