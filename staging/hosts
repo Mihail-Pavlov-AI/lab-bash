@@ -3,4 +3,4 @@ web:
       nginx:
          ansible_host: 127.0.0.1
          ansible_port: 2222
-         ansible_private_key_file: .vagrant/machines/default/virtualbox/private_key
+         ansible_private_key_file: .vagrant/machines/default/virtualbox/private_key    # Нужно проверить путь к ключу, введя команду "vagrant ssh-config", смотреть параметр IdentityFile, если нужно правим
