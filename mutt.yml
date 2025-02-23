@@ -18,7 +18,7 @@
       template:
         src: conf/.muttrc
         dest: ~/.muttrc
-        force: no   # Не меняет файл, если он уже существует
+        force: no   # Не меняет конфигурационный файл, если он уже существует
         mode: '0600'
       tags:
         - mutt-configuration
