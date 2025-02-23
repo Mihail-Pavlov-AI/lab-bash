@@ -42,5 +42,5 @@ set smtp_pass = "password_from_email@domain.com"
 
 Проверяем ходит ли почта
 ```
-
+echo 'The text of the message' | mutt -s "Test message" -- email@domain.com
 ```
