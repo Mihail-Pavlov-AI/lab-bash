@@ -32,7 +32,7 @@ sudo -i
 vi ~/.muttrc
 ```
 Это конфиг файл под почтовый сервис Yandex.  
-По настройкам можно посмотреть например здесь
+По настройкам можно посмотреть например здесь  
 https://www.dmosk.ru/miniinstruktions.php?mini=mutt&ysclid=m7hpb8qten105143979  
 Меняем в конфиг файле для почтового сервиса Yandex следующие строки
 set from = email@domain.com  
