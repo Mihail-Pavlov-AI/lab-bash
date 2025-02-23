@@ -33,7 +33,7 @@ vi ~/.muttrc
 ```
 Это конфиг файл под почтовый сервис Yandex.  
 По настройкам можно посмотреть например здесь
-https://www.dmosk.ru/miniinstruktions.php?mini=mutt&ysclid=m7hpb8qten105143979
+https://www.dmosk.ru/miniinstruktions.php?mini=mutt&ysclid=m7hpb8qten105143979  
 Меняем в конфиг файле для почтового сервиса Yandex следующие строки
 set from = email@domain.com  
 set smtp_url = 'smtps://email@domain.com@smtp.yandex.com:465'  
