@@ -6,7 +6,17 @@
     - name: update
       apt:
         update_cache=yes
+      tags:
+        - update-apt
     - name: mutt | Установка mutt
       apt:
         name: mutt
         state: latest
+      tags:
+        - mutt-package
+    - name: mutt | Копирование конфигурации из шаблона
+      template:
+        src: conf/.muttrc
+        dest: ~/.muttrc
+      tags:
+        - mutt-configuration
