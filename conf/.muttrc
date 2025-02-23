@@ -4,4 +4,4 @@ set use_from = yes
 set ssl_starttls = yes
 set ssl_force_tls = yes
 set smtp_url = 'smtps://email@domain.com@smtp.yandex.com:465'
-#set smtp_pass = "password_from_email@domain.com"
+set smtp_pass = "password_from_email@domain.com"
