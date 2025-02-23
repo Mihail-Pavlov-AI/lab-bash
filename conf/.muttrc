@@ -1,4 +1,4 @@
-set realname = "Пришло время сменить пароль"
+set realname = "Статистика web сервера"
 set from = email@domain.com
 set use_from = yes
 set ssl_starttls = yes
